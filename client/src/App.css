@@ -1,0 +1,23 @@
+.triangle {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+  transform: translateX(-50%);
+}
+
+.nav-link {
+  position: relative;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
